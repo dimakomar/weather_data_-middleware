@@ -4,14 +4,13 @@
  
 ## Installation
 
-Assuming you have a [Python](https://www.python.org) and [pip](https://pip.pypa.io/en/stable/installing/) installed
+Assuming you have a [Cocoapods](https://cocoapods.org) installed
 ```bash
- pip install -r requirements.txt
+ pod install
 ```
+This app is using middleware from [this](https://github.com/dimakomar/weather_data_middleware) repo
 
-## To start a local server
+## TODOs
 
-Run from project root directory
-```bash
- python manage.py runserver
-```
+ * add more charts
+ * configure multiple data sources
